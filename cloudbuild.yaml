@@ -33,7 +33,8 @@ steps:
       if [ -d "environments/$BRANCH_NAME/" ]; then
         cd environments/$BRANCH_NAME
         terraform init
-      else
+      e
+      se
         for dir in environments/*/
         do 
           cd ${dir}   
@@ -89,4 +90,6 @@ steps:
         echo "Branch '$BRANCH_NAME' does not represent an official environment."
         echo "*******************************************************************************"
       fi
+options:
+  logging: CLOUD_LOGGING_ONLY
 # [END tf-apply]      
