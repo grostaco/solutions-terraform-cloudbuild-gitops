@@ -33,7 +33,8 @@ steps:
       if [ -d "environments/$BRANCH_NAME/" ]; then
         cd environments/$BRANCH_NAME
         terraform init
-      else
+      e
+      se
         for dir in environments/*/
         do 
           cd ${dir}   
