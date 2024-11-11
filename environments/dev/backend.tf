@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "invalid-tfstate"
+    bucket = "paul-438709-tfstate"
     prefix = "env/dev"
   }
 }
